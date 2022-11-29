@@ -24,8 +24,6 @@ nav {
     margin: 0;
     padding: 0;
     display: inline-flex;
-    
-    
 }
 
 .nav-title ul li {
@@ -60,4 +58,32 @@ nav {
     color: white;
     font-size: 22px;
     text-decoration: none;
+}
+
+//artice service//
+
+.services-title {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 4px ;
+}
+
+.services-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-box {
+    display: flexbox;
+    flex: 1;
+    text-align: center;
+    padding: 0 30px;
+    i{
+        border: 3px solid gold;
+        border-radius: 50%;
+        font-size: 30px;
+        padding: 20px;
+        color: gold;
+    }
 }
