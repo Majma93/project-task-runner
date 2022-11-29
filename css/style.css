@@ -8,15 +8,20 @@
   margin: 0 auto;
 }
 
+nav {
+  background-image: url("/imags/cars.jpg");
+  height: 650px;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: grey;
+}
+
 .nav {
   margin: 0;
   padding: 0;
   display: inline-flex;
-  background-image: url("/imags/cars.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 1140px;
-  height: 60vh;
 }
 
 .nav-title ul li {
@@ -37,4 +42,18 @@
   text-decoration: none;
 }
 
-/*# sourceMappingURL=style.css.map */
+.splash {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.splash a {
+  border: 2px solid gold;
+  background: gold;
+  padding: 20px;
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHNCQUFBO0FDQ0o7O0FERUE7RUFDSSxpQkFBQTtFQUNBLGVBQUE7RUFDQSxjQUFBO0FDQ0o7O0FER0E7RUFDSSx3Q0FBQTtFQUNBLGFBQUE7RUFDQSxrQkFBQTtFQUNBLGtDQUFBO0VBQ0Esc0JBQUE7RUFDQSw0QkFBQTtFQUNBLHNCQUFBO0FDQUo7O0FESUE7RUFDSSxTQUFBO0VBQ0EsVUFBQTtFQUNBLG9CQUFBO0FDREo7O0FETUE7RUFDSSxlQUFBO0VBQ0Esa0JBQUE7QUNISjtBRElJO0VBQ0ksV0FBQTtFQUNBLHFCQUFBO0FDRlI7O0FES0E7RUFDSSxlQUFBO0FDRko7QURHSTtFQUNJLFlBQUE7RUFDQSxtQkFBQTtFQUNBLHFCQUFBO0FDRFI7O0FET0E7RUFDSSxrQkFBQTtFQUNBLGtCQUFBO0FDSko7O0FEUUE7RUFDSSxzQkFBQTtFQUNBLGdCQUFBO0VBQ0EsYUFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0VBQ0EscUJBQUE7QUNMSiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

@@ -1,11 +1,22 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
+
 .container {
     max-width: 1140px;
     padding: 0 20px;
     margin: 0 auto;
+}
+//navigation//
 
+nav {
+    background-image: url("/imags/cars.jpg");
+    height: 650px;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: grey;
 
 }
 
@@ -13,12 +24,7 @@
     margin: 0;
     padding: 0;
     display: inline-flex;
-    background-image: url("/imags/cars.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    width: 1140px;
-    height: 60vh;
-
+    
     
 }
 
@@ -29,7 +35,6 @@
         color: gold;
         text-decoration: none;
     }
-
 }
 .nav-cont ul li {
     display: inline;
@@ -38,5 +43,21 @@
         padding-right: 60px;
         text-decoration: none;
     }
+}
 
+//Splash//
+
+.splash {
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.splash a {
+    border: 2px solid gold;
+    background: gold;
+    padding: 20px;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
 }
