@@ -1,3 +1,40 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 
+.container {
+  max-width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.nav {
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  background-image: url("/imags/cars.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1140px;
+  height: 60vh;
+}
+
+.nav-title ul li {
+  display: inline;
+  margin-right: 50px;
+}
+.nav-title ul li a {
+  color: gold;
+  text-decoration: none;
+}
+
+.nav-cont ul li {
+  display: inline;
+}
+.nav-cont ul li a {
+  color: white;
+  padding-right: 60px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

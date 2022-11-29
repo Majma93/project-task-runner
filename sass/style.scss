@@ -1,0 +1,42 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1140px;
+    padding: 0 20px;
+    margin: 0 auto;
+
+
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    background-image: url("/imags/cars.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 1140px;
+    height: 60vh;
+
+    
+}
+
+.nav-title ul li {
+    display: inline;
+    margin-right: 50px;
+    a {
+        color: gold;
+        text-decoration: none;
+    }
+
+}
+.nav-cont ul li {
+    display: inline;
+    a {
+        color: white;
+        padding-right: 60px;
+        text-decoration: none;
+    }
+
+}
