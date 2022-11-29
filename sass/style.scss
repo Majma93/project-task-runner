@@ -121,3 +121,31 @@ section {
     font-weight: 200;
     color: grey;   
 }
+//footer//
+footer {
+    background: rgb(246, 237, 237);
+}
+
+.row {
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+     }
+
+.footer-cont{
+    display: inline-flex;
+}
+
+.footer-list {
+    display: inline-flex;
+    i {
+        color: black;
+        font-size: 20px;
+        padding-right: 30px;
+    }
+}
+
+.footer-list ul li {
+    display: inline;
+    padding-right: 20px;
+}
